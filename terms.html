@@ -14,7 +14,7 @@
         <meta property="og:title" content="Quemeh">
         <meta property="og:description" content="Quemeh é o seu espaço para conhecer de perto as histórias e trajetórias inspiradoras de pessoas influentes no Brasil e no mundo. Aqui, trazemos resumos detalhados da vida de líderes, empreendedores, artistas, políticos e outros ícones que moldaram e continuam a moldar o cenário global. Acompanhe o impacto de suas conquistas, desafios e legados, com textos que exploram suas vidas de maneira clara e envolvente.">
         <meta property="og:image" content="https://quemeh.com.br/images/thumbnail.png">
-        <meta property="og:url" content="https://quemeh.com.br/">
+        <meta property="og:url" content="https://quemeh.com.br/terms.html">
         <meta property="og:type" content="website">
         <meta property="og:locale" content="pt_BR">
 
@@ -34,13 +34,13 @@
         <!-- Dev Styles -->
         <link rel="stylesheet" href="css/dev/card.css">
         <link rel="stylesheet" href="css/dev/button.css">
-        <link rel="stylesheet" href="css/dev/field.css">
         <link rel="stylesheet" href="css/dev/wrapper.css">
         <link rel="stylesheet" href="css/dev/header.css">
         <link rel="stylesheet" href="css/dev/footer.css">
 
         <!-- Scripts -->
-        <script defer src="js/posts.js"></script>
+        <script defer src="js/article.js"></script>
+        <script defer src="js/audio.js"></script>
         <script defer src="js/protect.js"></script>
     </head>
     <body>
@@ -48,23 +48,45 @@
         <!-- Header -->
         <header class="container" aria-label="Cabeçalho principal">
             <h1>QUEM<span>EH</span></h1>
-            <p>Um breve resumo de todo mundo.</p>
+            <p>Conheça um pouco dos seus ídolos.</p>
         </header>
-
-        <!-- Filtro de Pesquisa -->
-        <section class="container" aria-label="Filtro de pesquisa">
-            <div class="field">
-                <i class="bi bi-search"></i>
-                <input type="text" id="search-input" class="search" placeholder="Buscar" maxlength="200" />
-            </div>
-        </section>
-
+       
         <!-- Main -->
-        <main id="posts-container" class="container grid g-3" aria-label="Grid de postagens"></main>
+        <main class="container grid g-1" aria-label="Termos de uso">
+            <section class="card">
+                <div class="wrapper alternative">
+                    <h3>Termos de Uso</h3>
+                    <p>Bem-vindo ao Quemeh! Ao acessar e utilizar o nosso site, você concorda com os seguintes termos e condições. Por favor, leia atentamente os termos abaixo.</p>
+                
+                    <h3>1. Aceitação dos Termos</h3>
+                    <p>Ao acessar este site, você concorda em cumprir e estar vinculado a todos os termos e condições aqui descritos. Caso não concorde com estes termos, por favor, não utilize o site.</p>
+                    
+                    <h3>2. Alterações nos Termos</h3>
+                    <p>O Quemeh reserva-se o direito de modificar ou atualizar os termos de uso a qualquer momento. Recomendamos que você revise os termos periodicamente para se manter informado sobre quaisquer alterações.</p>
 
-        <!-- Pagination -->
-        <nav class="container grid g-1" aria-label="Link de paginação">
-            <div id="pagination" class="row"></div>
+                    <h3>3. Uso do Conteúdo</h3>
+                    <p>O conteúdo disponível no site é para uso pessoal e não comercial. É proibido copiar, modificar ou distribuir qualquer conteúdo sem a devida autorização.</p>
+
+                    <h3>4. Responsabilidade do Usuário</h3>
+                    <p>Você é responsável por manter a confidencialidade de suas credenciais de acesso ao site e por todas as atividades realizadas sob sua conta.</p>
+
+                    <h3>5. Limitação de Responsabilidade</h3>
+                    <p>O Quemeh não se responsabiliza por danos diretos, indiretos ou consequenciais decorrentes do uso ou da incapacidade de uso do site.</p>
+
+                    <h3>6. Privacidade</h3>
+                    <p>Para informações sobre como lidamos com os seus dados pessoais, consulte a nossa Política de Privacidade.</p>
+
+                    <h3>7. Disposições Gerais</h3>
+                    <p>Estes termos de uso são regidos pelas leis do Brasil. Caso algum termo seja considerado inválido ou inexequível, as demais disposições permanecerão em vigor.</p>
+                </div>
+            </section>
+        </main>
+
+        <!-- Navigation -->
+        <nav class="container grid g-1" aria-label="Links de navegação e afiliado">
+            <div class="row">
+                <a href="javascript:void(0);" class="button" onclick="window.history.back()" aria-label="Voltar para a página anterior"><i class="bi bi-arrow-left"></i>Voltar</a>
+            </div>
         </nav>
 
         <!-- Footer -->

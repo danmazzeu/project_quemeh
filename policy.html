@@ -14,7 +14,7 @@
         <meta property="og:title" content="Quemeh">
         <meta property="og:description" content="Quemeh é o seu espaço para conhecer de perto as histórias e trajetórias inspiradoras de pessoas influentes no Brasil e no mundo. Aqui, trazemos resumos detalhados da vida de líderes, empreendedores, artistas, políticos e outros ícones que moldaram e continuam a moldar o cenário global. Acompanhe o impacto de suas conquistas, desafios e legados, com textos que exploram suas vidas de maneira clara e envolvente.">
         <meta property="og:image" content="https://quemeh.com.br/images/thumbnail.png">
-        <meta property="og:url" content="https://quemeh.com.br/">
+        <meta property="og:url" content="https://quemeh.com.br/policy.html">
         <meta property="og:type" content="website">
         <meta property="og:locale" content="pt_BR">
 
@@ -28,19 +28,18 @@
         <link rel="stylesheet" href="css/global/variables.css">
         <link rel="stylesheet" href="css/global/global.css">
         <link rel="stylesheet" href="css/global/grid.css">
-        <link rel="stylesheet" href="css/global/row.css">
         <link rel="stylesheet" href="css/global/container.css">
         
         <!-- Dev Styles -->
         <link rel="stylesheet" href="css/dev/card.css">
         <link rel="stylesheet" href="css/dev/button.css">
-        <link rel="stylesheet" href="css/dev/field.css">
         <link rel="stylesheet" href="css/dev/wrapper.css">
         <link rel="stylesheet" href="css/dev/header.css">
         <link rel="stylesheet" href="css/dev/footer.css">
 
         <!-- Scripts -->
-        <script defer src="js/posts.js"></script>
+        <script defer src="js/article.js"></script>
+        <script defer src="js/audio.js"></script>
         <script defer src="js/protect.js"></script>
     </head>
     <body>
@@ -48,23 +47,45 @@
         <!-- Header -->
         <header class="container" aria-label="Cabeçalho principal">
             <h1>QUEM<span>EH</span></h1>
-            <p>Um breve resumo de todo mundo.</p>
+            <p>Conheça um pouco dos seus ídolos.</p>
         </header>
-
-        <!-- Filtro de Pesquisa -->
-        <section class="container" aria-label="Filtro de pesquisa">
-            <div class="field">
-                <i class="bi bi-search"></i>
-                <input type="text" id="search-input" class="search" placeholder="Buscar" maxlength="200" />
-            </div>
-        </section>
-
+       
         <!-- Main -->
-        <main id="posts-container" class="container grid g-3" aria-label="Grid de postagens"></main>
+        <main class="container grid g-1" aria-label="Política de Privacidade">
+            <section class="card">
+                <div class="wrapper alternative">
+                    <h3>Política de Privacidade</h3>
+                    <p>Na Quemeh, a sua privacidade é uma prioridade. Este documento descreve as práticas de coleta, uso e compartilhamento de informações pessoais.</p>
 
-        <!-- Pagination -->
-        <nav class="container grid g-1" aria-label="Link de paginação">
-            <div id="pagination" class="row"></div>
+                    <h3>1. Informações Coletadas</h3>
+                    <p>Coletamos informações pessoais quando você se registra em nosso site, faz uma compra ou interage com nossos serviços. Essas informações podem incluir nome, endereço de e-mail, dados de navegação e informações de pagamento.</p>
+
+                    <h3>2. Como Usamos suas Informações</h3>
+                    <p>Utilizamos as informações coletadas para personalizar a sua experiência, melhorar nossos serviços, processar transações e enviar atualizações sobre o nosso conteúdo. Também podemos usar as informações para contatá-lo com ofertas ou promoções, caso você tenha optado por receber tais comunicações.</p>
+
+                    <h3>3. Compartilhamento de Informações</h3>
+                    <p>Não compartilhamos suas informações pessoais com terceiros, exceto quando necessário para cumprir com a lei ou com empresas parceiras que prestam serviços em nosso nome, como processamento de pagamentos e envio de newsletters.</p>
+
+                    <h3>4. Cookies</h3>
+                    <p>Utilizamos cookies para melhorar a experiência do usuário, personalizar conteúdo e anúncios, e analisar o tráfego do site. Você pode configurar o seu navegador para recusar cookies, mas isso pode afetar a funcionalidade do site.</p>
+
+                    <h3>5. Segurança</h3>
+                    <p>Adotamos medidas de segurança para proteger suas informações pessoais contra acesso não autorizado, alteração, divulgação ou destruição. Contudo, nenhuma transmissão de dados pela internet é completamente segura e garantimos a segurança de suas informações dentro de nossos recursos disponíveis.</p>
+
+                    <h3>6. Seus Direitos</h3>
+                    <p>Você tem o direito de acessar, corrigir ou excluir suas informações pessoais armazenadas por nós. Se desejar exercer esses direitos ou tiver dúvidas sobre nossa política de privacidade, entre em contato conosco através dos canais disponíveis.</p>
+
+                    <h3>7. Alterações na Política de Privacidade</h3>
+                    <p>A Quemeh pode atualizar esta política periodicamente. Recomendamos que você revise este documento regularmente para estar ciente de quaisquer alterações.</p>
+                </div>
+            </section>
+        </main>
+
+        <!-- Navigation -->
+        <nav class="container grid g-1" aria-label="Links de navegação e afiliado">
+            <div class="row">
+                <a href="javascript:void(0);" class="button" onclick="window.history.back()" aria-label="Voltar para a página anterior"><i class="bi bi-arrow-left"></i>Voltar</a>
+            </div>
         </nav>
 
         <!-- Footer -->

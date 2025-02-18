@@ -41,7 +41,7 @@ async function createPosts() {
         posts.forEach(post => {
             const description = post.description.length > 100 ? post.description.substring(0, 150) + '...' : post.description;
             const article = document.createElement('article');
-            article.classList.add('post');
+            article.classList.add('card');
             article.innerHTML = `
                 <img src="images/${post.id}.png" alt="${post.img_description}">
                 <h1>${post.title}</h1>

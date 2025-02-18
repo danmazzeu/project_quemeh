@@ -53,7 +53,7 @@ async function displayPost() {
                 document.getElementById('post-link').style.display = 'none';
 
                 const article = document.createElement('article');
-                article.classList.add('post', 'alternative');
+                article.classList.add('card', 'alternative');
                 article.innerHTML = `
                     <img src="images/${post.id}.png" alt="${post.img_description}">
                     <h1>${post.title}</h1>
