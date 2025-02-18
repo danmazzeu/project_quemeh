@@ -1,0 +1,59 @@
+:root {
+    /* General */
+    --radius: 10px;
+    --shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+
+    /* Body */
+    --body-bg: #f3f3f3;
+
+    /* Scrollbar */
+    --track: #999;
+    --thumb: #333;
+    --thumb-hover: #000;
+
+    /* Container */
+    --max-width: 1200px;
+    --max-width-alternative: 800px;
+
+    /* Wrapper */
+    --wrapper-border: 1px dashed #ccc;
+
+    /* Field */
+    --field-border: 1px solid #ddd;
+    --field-color: #333;
+    --field-bg: #fff;
+
+    /* Grid */
+    --grid-gap: 15px;
+
+    /* Row */
+    --row-gap: 10px;
+
+    /* Post */
+    --post-padding: 20px;
+    --post-title: #333;
+    --post-subtitle: #555;
+    --post-icon: #333;
+    --post-icon-hover: #000;
+    --post-span: #555;
+    --post-link: #333;
+    --post-link-hover: #000;
+    --post-h3: #333;
+    --post-paragraph: #000;
+    --post-border: 1px solid #ddd;
+    --post-bg: #fff;
+
+    /* Button */
+    --button-color: #fff;
+    --button-bg: #333;
+    --button-bg-hover: #000;
+    --button-current-color: #333;
+    --button-current-border: 1px solid #333;
+    --button-current-bg: #fff;
+
+    /* Header */
+    --header-color: #333;
+    --header-subcolor: #777;
+    --header-paragraph: #777;
+    --header-shadow: 1px 1px 1px #fff;
+}

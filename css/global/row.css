@@ -1,0 +1,7 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: var(--row-gap);
+    flex-wrap: wrap;
+    width: 100%;
+}

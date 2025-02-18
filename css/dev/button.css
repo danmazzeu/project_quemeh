@@ -1,0 +1,23 @@
+.button {
+    padding: 10px 15px;
+    border: 0;
+    border-radius: var(--radius);
+    color: var(--button-color);
+    text-decoration: none;
+    background-color: var(--button-bg);
+    box-shadow: var(--shadow);
+}
+
+.button i {
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: var(--button-bg-hover);
+}
+
+.button.current {
+    color: var(--button-current-color);
+    border: var(--button-current-border);
+    background-color: var(--button-current-bg);
+}

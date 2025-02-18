@@ -1,0 +1,13 @@
+.wrapper {
+    border-top: var(--wrapper-border);
+    border-bottom: var(--wrapper-border);
+    padding: 10px 0;
+}
+
+.wrapper h3 {
+    margin-bottom: 5px;
+}
+
+.wrapper p:not(:last-of-type) {
+    margin-bottom: 20px;
+}

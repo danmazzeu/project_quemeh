@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <!-- Metatags -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="language" content="Portuguese">
+        <meta name="description" content="...">
+        <meta name="keywords" content="...">
+        <meta name="author" content="Daniel Mazzeu">
+        <meta name="robots" content="follow, index">
+
+        <!-- Social Metatags -->
+        <meta property="og:title" content="Quemeh">
+        <meta property="og:description" content="...">
+        <meta property="og:image" content="https://quemeh.com.br/images/thumbnail.png">
+        <meta property="og:url" content="https://quemeh.com.br/">
+        <meta property="og:type" content="website">
+        <meta property="og:locale" content="pt_BR">
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.ico">
+
+        <!-- Title -->
+        <title>Quemeh</title>
+
+        <!-- Global Styles -->
+        <link rel="stylesheet" href="css/global/variables.css">
+        <link rel="stylesheet" href="css/global/global.css">
+        <link rel="stylesheet" href="css/global/grid.css">
+        <link rel="stylesheet" href="css/global/row.css">
+        <link rel="stylesheet" href="css/global/container.css">
+        
+        <!-- Dev Styles -->
+        <link rel="stylesheet" href="css/dev/post.css">
+        <link rel="stylesheet" href="css/dev/button.css">
+        <link rel="stylesheet" href="css/dev/field.css">
+        <link rel="stylesheet" href="css/dev/wrapper.css">
+        <link rel="stylesheet" href="css/dev/header.css">
+
+        <!-- Scripts -->
+        <script defer src="js/posts.js"></script>
+        <script defer src="js/protect.js"></script>
+    </head>
+    <body>
+
+        <!-- Header -->
+        <header class="container" aria-label="Cabeçalho principal">
+            <h1>QUEM<span>EH</span></h1>
+            <p>Conheça um poudo dos seus ídolos.</p>
+        </header>
+
+        <!-- Filtro de Pesquisa -->
+        <section class="container" aria-label="Filtro de pesquisa">
+            <div class="field">
+                <i class="bi bi-search"></i>
+                <input type="text" id="search-input" class="search" placeholder="Buscar" maxlength="200" />
+            </div>
+        </section>
+
+        <!-- Main -->
+        <main id="posts-container" class="container grid g-3" aria-label="Grid de postagens"></main>
+
+        <!-- Pagination -->
+        <nav class="container grid g-1" aria-label="Link de paginação">
+            <div id="pagination" class="row"></div>
+        </nav>
+
+    </body>
+</html>

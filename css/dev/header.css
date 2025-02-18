@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+header h1, header h1 span {
+    color: var(--header-color);
+    font-size: 35px;
+    line-height: 25px;
+    font-weight: 900;
+    text-shadow: var(--header-shadow);
+}
+
+header h1 span {
+    color: var(--header-subcolor);
+}
+
+header p {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 300;
+    color: var(--header-paragraph);
+}
+
+@media all and (max-width: 550px) {
+    header {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}

@@ -1,0 +1,24 @@
+Não precisa me mostrar, pode apenas gerar a estrutura json.
+
+Gere um artigo para blog extenso e dinâmico a partir destas referências, utilize a formatação markdown: 'Quem é Elon Musk' Preciso que contenha meta descrição com no máximo 140 caracteres, os subtítulos em negrito, evite repetições de sentenças, coloque sempre em negrito a palavra-chave do artigo com alto CPC. Não repita a palavra-chave mais que 2% de todo o conteúdo. Introdução: A introdução deve ser extensa no mínimo 2 parágrafos e apresentar o tópico do artigo e deixar os leitores curiosos para saber mais, a introdução deve ser atrativa e curiosa que envolve os leitores. Desenvolvimento: O desenvolvimento é a parte principal do artigo, onde apresenta argumentos ou informações. O desenvolvimento deve ser claro e conciso, depois crie o corpo do texto no mínimo 2 parágrafos, seja criativo e não economize no texto, preciso que o corpo do texto seja extenso, depois crie uma conclusão: A conclusão deve resumir os principais pontos do artigo e deixar os leitores com algo para pensar. A conclusão deve ser clara e concisa. Aplique todas as técnicas de SEO como se fosse um profissional de SEO de forma humanizada. O Artigo deve conter no mínimo 800 palavras, preciso que considere muito isso. Se por acaso você parar por algum motivo, recomece de onde parou sem quebrar o conteúdo.
+
+Em seguida encaixe todo esse texto nessa estrutura json, onde no content, o títulos devem ficar em h3 e os paragrafos em p.
+preencher data e hora com as informações atuais de São Paulo - Brasil. em author manter o mesmo sempre.
+Gerar uma descrição da imagem aleatoria porém relacionada.
+Não colocar * ou **.
+Sempre que tiver " colocar \"
+
+{
+    "id": 1,
+    "img_description": "",
+    "keywords": "",
+    "title": "",
+    "subtitle": "\"Subtitle\"",
+    "description": "",
+    "content": "",
+    "date": "",
+    "time": "",
+    "author": "Daniel Mazzeu",
+    "link": "https://www.exemplo.com/curso-programacao",
+    "link_text": "Aprenda programação com este curso"
+},

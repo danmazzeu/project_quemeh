@@ -1,0 +1,30 @@
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    position: relative;
+    border: var(--field-border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    background-color: var(--field-bg);
+    box-shadow: var(--shadow);
+}
+
+.field i {
+    color: var(--field-color);
+    position: absolute;
+    top: 13px;
+    left: 15px;
+    z-index: 1;
+    font-size: 16px;
+    font-weight: 550;
+    text-transform: uppercase;
+}
+
+.field input {
+    color: var(--field-color);
+    padding: 15px 15px 15px 42px;
+    border: 0;
+    background-color: transparent;
+}
