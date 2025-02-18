@@ -13,6 +13,7 @@
 }
 
 @media all and (max-width: 800px) {
+    .g-2 { grid-template-columns: repeat(1, 1fr); }
     .g-3 { grid-template-columns: repeat(2, 1fr); }
     .g-row {
         align-items: center;

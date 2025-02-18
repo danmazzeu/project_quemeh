@@ -1,0 +1,39 @@
+footer {
+    padding: 30px 0 0 0;
+    border-top: 1px dashed #ccc;
+}
+
+footer section {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: flex-start;
+}
+
+footer section:nth-child(2) {
+    align-items: flex-end;
+    text-align: right;
+    color: #999;
+}
+
+footer section a,
+footer section a:visited,
+footer section a:active {
+    color: #333;
+    text-decoration: underline;
+}
+
+footer section a:hover {
+    color :#000;
+}
+
+@media all and (max-width: 800px) {
+    footer section,
+    footer section:nth-child(2) {
+        align-items: center;
+        text-align: center;
+    }
+    footer section:nth-child(2) {
+        margin-top: 15px;
+    }
+}

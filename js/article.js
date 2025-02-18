@@ -31,7 +31,6 @@ async function displayPost() {
             if (post) {
                 document.title = 'Quemeh - ' + post.title;
 
-                // Atualização de metadados
                 const metaKeyword = document.querySelector('meta[name="keywords"]');
                 const metaAuthor = document.querySelector('meta[name="author"]');
                 const metaDescription = document.querySelector('meta[name="description"]');
@@ -50,6 +49,8 @@ async function displayPost() {
 
                 document.getElementById('post-link').href = post.link;
                 document.getElementById('post-link').textContent = post.link_text;
+                // link de afiliado desativado por enquanto
+                document.getElementById('post-link').style.display = 'none';
 
                 const article = document.createElement('article');
                 article.classList.add('post', 'alternative');
@@ -65,7 +66,6 @@ async function displayPost() {
                 `;
                 postContainer.appendChild(article);
 
-                // Lógica do áudio
                 const audioIcon = article.querySelector('.bi-play-circle-fill');
                 let audio = null;
                 let isPlaying = false;

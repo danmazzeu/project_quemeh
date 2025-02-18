@@ -53,6 +53,7 @@ async function createPosts() {
                 <a href="article.html?title=${post.title}&id=${post.id}" aria-label="Saiba mais sobre a postagem ${post.title}">Continuar lendo</a>
             `;
             container.appendChild(article);
+            
         });
     }
 

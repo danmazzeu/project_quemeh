@@ -5,10 +5,12 @@ header {
 }
 
 header h1, header h1 span {
+    font-family: "Archivo Black", serif;
     color: var(--header-color);
     font-size: 35px;
     line-height: 25px;
     font-weight: 900;
+    letter-spacing: 2px;
     text-shadow: var(--header-shadow);
 }
 
