@@ -32,7 +32,10 @@ body {
     gap: 30px;
     padding: 30px 20px;
     background-color: var(--body-bg);
-
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
 }
 
 ul { list-style: none; }
