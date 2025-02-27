@@ -47,11 +47,6 @@ async function displayPost() {
                 if (ogUrl) ogUrl.setAttribute('content', window.location.href || '');
                 if (ogImage) ogImage.setAttribute('content', `${window.location.origin}/images/${post.id}.png` || '');
 
-                document.getElementById('post-link').href = post.link;
-                document.getElementById('post-link').textContent = post.link_text;
-                // link de afiliado desativado por enquanto
-                document.getElementById('post-link').style.display = 'none';
-
                 const article = document.createElement('article');
                 article.classList.add('card', 'alternative');
                 article.innerHTML = `

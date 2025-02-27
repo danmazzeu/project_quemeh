@@ -5,7 +5,7 @@ Gere um artigo para blog extenso e dinâmico a partir destas referências, utili
 Em seguida encaixe todo esse texto nessa estrutura json, onde no content, o títulos devem ficar em h3 e os paragrafos em p.
 preencher data e hora com as informações atuais de São Paulo - Brasil. em author manter o mesmo sempre.
 Gerar uma descrição da imagem aleatoria porém relacionada.
-Não colocar * ou **.
+Remova os * ou **.
 Sempre que tiver " colocar \"
 
 {
@@ -18,7 +18,5 @@ Sempre que tiver " colocar \"
     "content": "",
     "date": "",
     "time": "",
-    "author": "Daniel Mazzeu",
-    "link": "https://www.exemplo.com/curso-programacao",
-    "link_text": "Aprenda programação com este curso"
+    "author": "Daniel Mazzeu"
 },
