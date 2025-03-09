@@ -53,7 +53,6 @@ async function displayPost() {
                     <img src="images/${post.id}.png" alt="${post.img_description}">
                     <h1>${post.title}</h1>
                     <h2>${post.subtitle}</h2>
-                    <i class="bi bi-play-circle-fill" data-audio="${post.id}"></i>
                     <div class="wrapper">
                         <p>${post.content}</p>
                     </div>
